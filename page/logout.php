@@ -2,8 +2,8 @@
 /*
 *  ログアウト処理
 */
-require_once '../../include/const/const.php';
-require_once '../../include/model/function.php';
+require_once '../include/const/const.php';
+require_once '../include/model/function.php';
 // セッション開始
 session_start();
 // セッション名取得 ※デフォルトはPHPSESSID
