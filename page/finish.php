@@ -50,5 +50,5 @@ if (get_request_method() === 'POST') {
     header('Location: ./top.php');
     exit;
 }
-include_once '../../include/view/finish.php';
+include_once '../include/view/finish.php';
 ?>
