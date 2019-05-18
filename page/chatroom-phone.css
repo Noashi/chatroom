@@ -1,0 +1,390 @@
+/* reset -------------------------------------------- */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+/* common -------------------------------------------- */
+header, footer {
+  background-color: #f8b500;
+}
+
+.header-box {
+  height: 100px;
+  padding: 0.4rem 0.2rem;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #1c4b82;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 0.1rem;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: -0.2rem;
+  text-aglin: center;
+}
+
+.top-menu-btn {
+  /* width: 100%; */
+  /* max-width: 100px; */
+  /* margin:0 auto; */
+  font-size: 18px;
+  color: #FFF;
+  padding: 2px 5px;
+  margin: 0 2px;
+  border: 2px solid #FFF;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+}
+
+#copyright {
+  padding: 3px 0;
+}
+
+body {
+  background-color: #ece8d9;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+main {
+  padding: 10px 0;
+  height: 100%;
+}
+
+.err-msg {
+  color: red;
+}
+
+.success-msg {
+  color: blue;
+}
+
+.return {
+  color: #000000;
+}
+
+.container {
+  width: 90%;
+  margin: 30px auto 0 auto;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 34px;
+}
+
+/* top -------------------------------------------- */
+.heading {
+  font-size: 41px;
+  display: none;
+}
+
+.heading span {
+  color: #1c4b82;
+  font-size: 45px;
+}
+
+.descreption {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.descreption p {
+  margin-bottom: 7px;
+  line-height: 1.3;
+}
+
+.start-btn {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 180px;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 7px 8px;
+  background-color: #DF7599;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* signup -------------------------------------------- */
+.menu-btn {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 18px;
+  color: #FFF;
+  padding: 2px 5px;
+  border: 2px solid #FFF;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+.form {
+  margin: 8px auto 15px auto;
+}
+
+.form input {
+  display: block;
+  margin: 0 auto;
+  height: 35px;
+  margin-bottom: 5px;
+  width: 80%;
+  font-size: 100%;
+  box-sizing: border-box;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.signup-btn {
+  display: block;
+  margin: 20px auto 10px auto;
+  width: 180px;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 4px 8px;
+  background-color: #DF7599;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* confirm -------------------------------------------- */
+.confirm-form {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* finish -------------------------------------------- */
+.finish-container .msg {
+  margin: 30px 0 40px 0;
+}
+
+/* login -------------------------------------------- */
+/* フォーム部品はsignupのものを流用 */
+.login-btn {
+  display: block;
+  margin: 20px auto 10px auto;
+  width: 180px;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 4px 8px;
+  background-color: #107595;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* index-------------------------------------------- */
+.login_user_name {
+  display: none;
+}
+
+.post-comment {
+  margin-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: 3px dotted gray;
+  text-align: center;
+}
+
+.comment-form {
+  display: inline-block;
+}
+
+.comment-form input {
+  height: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.comment-form button {
+  color: #FFF;
+  background-color: #1c4b82;
+  border-radius: 5px;
+}
+
+.delete-button {
+  display: block;
+  color: #FFF;
+  background-color: #F22C5A;
+  font-size: 11px;
+  border-radius: 5px;
+  width: auto;
+  padding: 3px;
+  margin: 0;
+  /*右下配置*/
+  position: absolute;
+  right: -40px;
+  bottom: 3px;
+}
+
+.log {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.float-clear {
+  clear: both;
+}
+
+.icon {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.icon-image {
+  border-radius: 50%;
+}
+
+.icon-me {
+  float: left;
+}
+
+.icon-others {
+  float: right;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.comment {
+  max-width: 70%;
+}
+
+.comment-me {
+  float: left;
+}
+
+.comment-others {
+  float: right;
+}
+
+.say {
+  margin-top: 8px
+}
+
+.time {
+  color: #808080;
+  margin-left: 5px;
+}
+
+.balloon1-left {
+  position: relative;
+  display: inline-block;
+  margin: 0.8em 0 0.8em 18px;
+  padding: 7px 10px;
+  color: #555;
+  background: #72d6c9;
+  border-radius: 10px;
+}
+
+.balloon1-left:before {
+  content: "";
+  position: absolute;
+  top: 22px;
+  left: -27px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #72d6c9;
+}
+
+.balloon1-left p {
+  padding: 0;
+}
+
+.balloon1-right {
+  position: relative;
+  display: inline-block;
+  margin: 0.8em 18px 0.8em 0;
+  padding: 7px 10px;
+  color: #555;
+  background: #ffffff;
+  border-radius: 10px;
+  float: right;
+}
+
+.balloon1-right:before {
+  content: "";
+  position: absolute;
+  top: 22px;
+  left: 98%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 15px solid #ffffff;
+}
+
+.balloon1-right p {
+  padding: 0;
+}
+
+/* mypage -------------------------------------------- */
+.change-profile-button {
+  display: block;
+  color: #FFF;
+  background-color: #107595;
+  font-size: 11px;
+  border-radius: 5px;
+  width: auto;
+  padding: 3px;
+  margin: 5px auto 10px auto;
+}
+
+.delete-data {
+  display: block;
+  color: #FFF;
+  background-color: #F22C5A;
+  font-size: 11px;
+  border-radius: 5px;
+  width: auto;
+  padding: 3px;
+  margin: 13px auto 13px auto;
+}
+
+.profile {
+  margin: 5px auto 5px auto;
+}
+
+td {
+  padding: 1px 15px;
+}
