@@ -16,5 +16,5 @@ if((isset($_SESSION['tmp_user_name']) === TRUE) || (isset($_SESSION['tmp_user_id
     header('Location: ./top.php');
     exit;
 }
-include_once '../../include/view/confirm.php';
+include_once '../include/view/confirm.php';
 ?>
