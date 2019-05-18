@@ -39,5 +39,5 @@ if (get_request_method() === 'POST') {
         exit;
     }
 }
-include_once '../../include/view/signup.php';
+include_once '../include/view/signup.php';
 ?>
