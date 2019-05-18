@@ -123,5 +123,5 @@ if (get_request_method() === 'POST') {
         }
     }
 }
-include_once '../../include/view/change-profile.php';
+include_once '../include/view/change-profile.php';
 ?>
