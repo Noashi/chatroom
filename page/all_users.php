@@ -2,8 +2,8 @@
 /*
 *  スレッドページ
 */
-require_once '../../include/const/const.php';
-require_once '../../include/model/function.php';
+require_once '../include/const/const.php';
+require_once '../include/model/function.php';
 $err_msg = array(); //エラーメッセージ
 // セッション開始
 session_start();
