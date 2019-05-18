@@ -28,5 +28,5 @@ if (($user_data = get_user_data($link)) === '') {
 close_db_connect($link);
 // 特殊文字をHTMLエンティティに変換
 $user_data = entity_assoc_array($user_data);
-include_once '../../include/view/all_users.php';
+include_once '../include/view/all_users.php';
 ?>
