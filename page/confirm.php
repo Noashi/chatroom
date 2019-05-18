@@ -2,8 +2,8 @@
 /*
 *  新規登録確認ページ
 */
-require_once '../../include/const/const.php';
-require_once '../../include/model/function.php';
+require_once '../include/const/const.php';
+require_once '../include/model/function.php';
 // セッション開始
 session_start();
 //セッション変数が存在しているか確認
