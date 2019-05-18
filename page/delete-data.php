@@ -57,5 +57,5 @@ if (get_request_method() === 'POST') {
     $err_msg[] = 'マイページからアクセスしてください。';
 }
 
-include_once '../../include/view/delete-data.php';
+include_once '../include/view/delete-data.php';
 ?>
