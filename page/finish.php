@@ -2,8 +2,8 @@
 /*
 *  新規登録完了ページ
 */
-require_once '../../include/const/const.php';
-require_once '../../include/model/function.php';
+require_once '../include/const/const.php';
+require_once '../include/model/function.php';
 //メッセージを格納する配列
 $err_msg = array();
 $success_msg = array();
