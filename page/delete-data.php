@@ -2,8 +2,8 @@
 /*
 *  退会処理
 */
-require_once '../../include/const/const.php';
-require_once '../../include/model/function.php';
+require_once '../include/const/const.php';
+require_once '../include/model/function.php';
 $success_msg = array();
 $err_msg = array(); //エラーメッセージ
 // セッション開始
